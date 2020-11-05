@@ -1,0 +1,188 @@
+/* STYLE GENERAL
+================================================== */
+
+/* GENERALITES */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+font-weight:normal;
+vertical-align:baseline;
+background:transparent;
+}
+html, body {
+width:100%;
+height:100%;
+}
+body{
+line-height:1;
+height:100vh !important;
+-webkit-text-size-adjust:100%;
+-moz-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+-o-text-size-adjust:100%;
+text-size-adjust:100%;
+font-family:'HPSimplifiedLight','Open Sans', Arial, sans-serif;
+color:var(--bleu-fonce);
+background-color:var(--blanc-clair);
+}
+body #wrapper {
+box-sizing:border-box;
+height:100vh;
+padding:80px 1% 1% 1%;
+}
+body #wrapper-before {
+display:none;
+}
+body.block {
+overflow-y:hidden;
+}
+section,article,aside,main,dialog,figure,footer,header,hgroup,nav,section,img {
+display:block;
+}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+font-family: 'HPSimplified','Roboto', Arial, sans-serif;
+font-weight: normal;
+color:var(--bleu-fonce);
+-webkit-transition: color 0.4s;
+transition: color 0.4s;
+margin-bottom:0.2em;
+}
+h1 {
+font-size: 2em;
+}
+h2 {
+font-size: 1.8em;
+}
+h3 {
+font-size: 1.4em;
+}
+h4, h5, h6 {
+font-size: 1.2em;
+}
+p, p a {
+text-decoration:none;
+font-size: 1em;
+color:var(--bleu-fonce);
+-webkit-transition: color 0.4s;
+transition: color 0.4s;
+margin-bottom:0.5em;
+}
+ul, ol {
+margin-left:1em;
+}
+a:hover {
+color:var(--bleu-normal);
+}
+/* HEADER */
+header {
+position:fixed;
+display:table;
+table-layout:fixed;
+top:0;
+left:0;
+right:0;
+width:100%;
+height:70px;
+background-color:var(--blanc-clair);
+border-bottom: 1px solid var(--blanc-fonce);
+z-index:5;
+}
+header p,header a, header i {
+margin-bottom:0;
+}
+header .header-column {
+display:table-cell;
+vertical-align:middle;
+}
+header .header-left {
+display:none;
+}
+header .header-center {
+text-align:center;
+}
+header .header-right {
+width:150px;
+text-align:center;
+border-left: 1px solid var(--blanc-fonce);
+}
+#div_social {
+display:none;
+}
+#div_logout {
+display:inline-block;
+margin:0 auto;
+}
+#div_logout:hover p {
+color: var(--bleu-normal);
+cursor:pointer;
+}
+#div_logout span {
+margin-left:0.5em;
+}
+#div_logo {
+display:inline-block;
+padding:0 0 0 45px;
+margin:0 auto;
+cursor:pointer;
+background-image: url('images/favicon.png');
+background-position: center left;
+background-repeat: no-repeat;
+background-size: 40px;
+}
+#div_logo p {
+line-height:20px;
+padding: 0;
+margin: 0;
+text-align:left;
+}
+#div_logo p.caveat {
+font-size: 1.8em;
+}
+#div_logo:hover p {
+color: var(--bleu-normal);
+}
+/* MENU NAVIGATION */
+#menu_icon, nav {
+display:none;
+}
+
+/* MAIN */
+main {
+display:table;
+table-layout:fixed;
+height:100%;
+margin:0 auto;	
+}
+
+.main_sub {
+display:table-cell;	
+vertical-align:middle;
+}
+
+/* PATIENTEZ */
+#div_patientez { 
+display: none;
+position: fixed; 
+top: 0; 
+left: 0; 
+right: 0; 
+bottom: 0;  
+z-index:1000; 
+background-color: rgba(100,100,100,.8);
+background-image: url('images/patientez.gif');
+background-position:center;
+background-size: 100px;
+background-repeat: no-repeat;
+pointer-events:none;
+}
+#div_patientez.active {
+display:block;
+}
+
+/* FOOTER */
+footer {
+display:none;
+}

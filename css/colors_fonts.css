@@ -1,0 +1,26 @@
+:root {
+--noir-noir:#000000;
+--noir-fonce:#202121;
+--blanc-blanc:#ffffff;
+--blanc-clair:#f4f7f6;
+--blanc-fonce:#E6EAEA;
+--jaune-normal:#D99400;
+--bleu-normal:#7298A4;
+--bleu-fonce:#104050;
+--color-facebook:#3C5A98;
+--color-linkedin:#0077B5;
+--color-google:#DC4A38;
+--color-twitter:#55ACEE;
+}
+@font-face {
+	font-family: 'HPSimplified';
+	src: url('font/hpSimplified/hp-simplified.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family: 'HPSimplifiedLight';
+	src: url('font/hpSimplified/hp-simplified-light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
